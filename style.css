@@ -1,0 +1,223 @@
+#menu a{
+    text-decoration:none;
+    color:black;
+    display: inline-block;
+    width:100px;
+}
+#menu a:hover{
+    background-color:#ccc;
+    width:120px;
+}
+#menu{
+    position:fixed;
+    top:0;
+    /*background-color: white;
+    opacity: 0.8;*/
+    background-color: rgba(255, 255, 255, 0.8);
+        width:100%;
+    text-align:center;
+    padding-top:20px;
+    height:40px;
+}
+#main_header{
+    text-align:center;
+    background-image:url(Materials/images/polygons.png);
+        color: white;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding:200px;
+    margin-top: 60px;
+}
+#main_header a{
+    padding: 12px 24px;
+    background-color:white;
+    border-radius: 10px;
+    color:black;
+    text-decoration:none;
+    
+}
+#main_header p{
+    margin:45px 0;
+}
+#main_header a:hover{
+    background-color:#b1b1b2;
+}
+#about_company{
+    margin:0 auto;
+    max-width: 1200px;
+    text-align:center;
+}
+#about_company h2{
+    text-align:center;
+}
+#about_company p{
+    max-width:700px;
+    text-align:justify;
+}
+#about_company img{
+    position:relative;
+    left:350px;
+    bottom:300px;
+    height:210px;
+}
+.member{
+    display:inline-block;
+    width: 20%;
+    border:2px solid gray;
+    margin:20px 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px gray;
+    text-align:left;
+}
+.member img{
+    width:100%;
+}
+#team{
+    text-align:center;
+}
+.description{
+    height:2em;
+}
+.member a{
+    text-decoration:none;
+    background-color:#055b73;
+    color:white;
+    padding:5px 100px;
+    border-radius:5px;
+    width:40%;
+    display:inline-block;
+    text-align:center;
+}
+.tariff li{
+    list-style-type:none;
+    border-bottom:1px solid #dddddd;
+    border-bottom-width:1px;
+    border-bottom-style: solid;
+    border-bottom-color:#dddddd;
+    padding:16px 0;
+}
+.tariff .tariffname{
+    color:white;
+    background-color:black;
+    font-size:24px;
+    padding: 32px 0;
+}
+.tariffname.best{
+    background-color:#055b73;
+    padding:48px 0;
+}
+.tariff{
+    display:inline-block;
+    min-width:150px;
+    width: 30%;
+    padding:0;
+    margin:10px;
+    background-color: white;
+    text-align: center;
+}
+.rates{
+    background-color:gray;
+    padding:50px 0;
+    width:100%;
+    text-align: center;
+}
+.tariff li a{
+    background-color: black;
+    color:white;
+    padding: 10px 20px;
+    border-radius:5px; 
+}
+.ratesheader{
+    text-align: center;
+    color:#fff;
+    display:block;
+}
+.aday{
+    opacity: 0.8;
+}
+p input{
+    width:95%;
+    margin:0 50px;
+}
+#contacts{
+    text-align:center;
+    background-color:#f1f1f1;
+    padding:0 40px;
+ 
+}
+.contactadress{
+    background-image: url(Materials/images/address.png);
+}
+.contactinfo{
+     background-repeat: no-repeat;
+    background-size:18px 18px;
+    text-align: left;
+    padding-left: 30px;
+    margin-left: 3%;
+}
+.phone{
+    background-image: url(Materials/images/phone.png);
+}
+.email{
+        background-image: url(Materials/images/mail.png); 
+}
+form p button{
+    background-color:black;
+    color:white;
+    border-radius: 6px;
+    padding: 5px;
+}
+.tariff td{
+    border:1px solid #dddddd;
+    border-width:1px;
+    border-style:solid;
+    border-color:#dddddd;
+    padding:16px 0;
+    font-weight: bold;
+}
+.tariff .tariffname{
+    color:white;
+    background-color:black;
+    font-size:24px;
+    padding: 10px 32px;
+}
+.tariffname.best{
+    background-color:#055b73;
+    padding:0 48px;
+}
+.tariff{
+    display:inline-block;
+    width: 30%;
+    padding:0;
+    margin:10px;
+    border-collapse:collapse;
+}
+.tariff td{
+    padding:16px 200px;
+}
+.tariffnamepro{
+    background-color:#055b73;
+}
+.tariff tr td a{
+    background-color: black;
+    color:white;
+    padding: 10px 20px;
+    border-radius:5px;
+}
+.unbold{
+    font-weight:normal;
+}
+.opacitty{
+    opacity:0.6; 
+}
+#arrow_up{
+ position:fixed;
+    bottom:0;
+    right:0;
+    margin:20px;
+}
+#arrow_up img{
+    height: 50px;
+    width:50px;
+}
+
